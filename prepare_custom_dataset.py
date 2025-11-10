@@ -30,7 +30,7 @@ def split_dataset(real_path, fake_path, output_path, train_ratio=0.75, val_ratio
 
     copy_split(real_path, "real")
     copy_split(fake_path, "fake")
-    print(f"\n✅ Split complete → saved under {output_path}")
+    print(f"\nSplit complete → saved under {output_path}")
 
 if __name__ == "__main__":
     split_dataset("./custom_dataset/real", "./custom_dataset/fake", "./split_dataset")

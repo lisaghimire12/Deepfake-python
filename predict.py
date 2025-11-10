@@ -1,4 +1,3 @@
-# predict.py -- Quick image test using your trained CNN
 import tensorflow as tf
 import numpy as np
 import cv2

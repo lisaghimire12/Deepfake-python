@@ -1,4 +1,3 @@
-# app.py — Deepfake Detector (final polished version with image previews)
 import streamlit as st
 import tensorflow as tf
 import numpy as np
