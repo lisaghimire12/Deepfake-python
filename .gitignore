@@ -1,0 +1,66 @@
+# ========================
+# Deepfake Detector Project
+# ========================
+
+# Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Dataset folders (too large for GitHub)
+custom_dataset/
+prepared_dataset/
+split_dataset/
+tmp_debug/
+tmp_fake_faces/
+train_sample_videos/
+
+# Model checkpoints and weights
+*.h5
+*.keras
+*.ckpt
+*.pb
+tmp_checkpoint/
+best_model.h5
+
+# IDE and OS generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+.streamlit_cache/
+__streamlit__cache__/
+
+# Temporary uploads or images
+tmp_uploaded_image.png
+*.jpg
+*.jpeg
+*.png
+!app_screenshot.png  # keep a single demo screenshot if needed
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Hugging Face / API credentials (if added later)
+*.json
+*.yaml
+config.json
+.env
+
+# Miscellaneous
+*.zip
+*.rar
+*.tar
+*.gz
+*.csv
